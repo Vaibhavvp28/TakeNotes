@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vaibhavpalande.takenotes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TakeNotes"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FireNotes">
+        <activity android:name="com.vaibhavpalande.takenotes.auth.Splash" android:theme="@style/Theme.FireNotes.NoActionBar"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name="com.vaibhavpalande.takenotes.auth.Register" />
+        <activity android:name="com.vaibhavpalande.takenotes.auth.Login" />
+        <activity
+            android:name="com.vaibhavpalande.takenotes.note.EditNote"
+            android:theme="@style/Theme.FireNotes.NoActionBar" />
+        <activity
+            android:name="com.vaibhavpalande.takenotes.note.AddNote"
+            android:label="@string/title_activity_add_note"
+            android:theme="@style/Theme.FireNotes.NoActionBar" />
+        <activity
+            android:name="com.vaibhavpalande.takenotes.note.NoteDetails"
+            android:label="@string/title_activity_note_details"
+            android:theme="@style/Theme.FireNotes.NoActionBar" />
+        <activity
+            android:name="com.vaibhavpalande.takenotes.MainActivity"
+            android:theme="@style/Theme.FireNotes.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "180965993890",
+    "project_id": "firenotes-1e989",
+    "storage_bucket": "firenotes-1e989.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180965993890:android:17620ff27ad1a5e90c16fb",
+        "android_client_info": {
+          "package_name": "com.vaibhavpalande.takenotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180965993890-ae8i1n41b4t4thh0dcrqbrffqilni1jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIF7hr9UKiazSIIaH0UHG9DWzYknP5-xY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180965993890-ae8i1n41b4t4thh0dcrqbrffqilni1jj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
